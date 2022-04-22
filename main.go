@@ -14,6 +14,5 @@ func main() {
         log.Println("Starting the server!")
         if err := server.ListenAndServe(); err != nil {
                 log.Fatalln("[ERROR] Error while starting the server")
-                
         }
 }
